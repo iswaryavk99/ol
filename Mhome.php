@@ -4,7 +4,7 @@ include 'config.php';
 session_start();
 $user_id = $_SESSION['user_id'];
 
-if(isset($_GET['logout'])){
+if(isset($_GET['logout'])){d
    unset($user_id);
    session_destroy();
    header('location:Mhome.php');
@@ -40,7 +40,7 @@ if(isset($_POST['update_profile'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>ishu Home page</title>
     <link rel="stylesheet" href="Mstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -139,7 +139,7 @@ if(isset($_POST['update_profile'])){
             <div class="home-content">
                 <div class="card">
                     <div class="text">
-                        <label><h1><b>welcome to</b></h1><br><h3>Vaithiyar Matrimony</span><h3></label>        
+                        <label><h1><b>welcome to</b></h1><br><h3>Velaudha Matrimony</span><h3></label>        
                     </div>
                     <div class="sub">
                     <a href="http://localhost/old/register.php"><i class="" id="btn"  ></i>Register now!</a>
